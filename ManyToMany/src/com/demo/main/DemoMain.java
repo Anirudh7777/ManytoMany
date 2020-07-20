@@ -47,11 +47,11 @@ public class DemoMain {
 			
 			em.getTransaction().begin();
 //			
-			System.out.println("Saving the Course 1 ");
+			System.out.println("Saving Course 1 ");
 			em.persist(student1);
 			em.persist(course);
 			
-			System.out.println("Saving the Student 1 ");
+			System.out.println("Saving Student 1 ");
 			student.setCourses(list1);
 			em.persist(course1);
 			em.persist(student);
